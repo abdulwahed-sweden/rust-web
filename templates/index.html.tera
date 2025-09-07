@@ -1,11 +1,15 @@
 {% extends "base.html.tera" %}
+
+{% block title %}Rust Web AI{% endblock title %}
+
 {% block content %}
-  <div class="p-4 border rounded-3 bg-light">
-    <h1 class="h3 mb-3">Minimal Actix + Tera</h1>
-    <p class="mb-3">Single-page starter matching your Bootstrap/Smarty look.</p>
-    <button class="btn btn-warning" type="button" disabled>
-      <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
-      <span role="status">Loading...</span>
-    </button>
+<section class="py-5">
+  <div class="container">
+    <div class="text-center">
+      <h1 class="fw-semibold mb-2">Rust Web AI</h1>
+      <p class="text-muted mb-4">Fast, minimal Actix-web + Tera starter.</p>
+      <a href="#" class="btn btn-primary">Get started</a>
+    </div>
   </div>
+</section>
 {% endblock content %}
