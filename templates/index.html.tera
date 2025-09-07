@@ -1,0 +1,11 @@
+{% extends "base.html.tera" %}
+{% block content %}
+  <div class="p-4 border rounded-3 bg-light">
+    <h1 class="h3 mb-3">Minimal Actix + Tera</h1>
+    <p class="mb-3">Single-page starter matching your Bootstrap/Smarty look.</p>
+    <button class="btn btn-warning" type="button" disabled>
+      <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+      <span role="status">Loading...</span>
+    </button>
+  </div>
+{% endblock content %}
