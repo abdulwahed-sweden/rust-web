@@ -1374,6 +1374,8 @@ version = "0.1.0"
 dependencies = [
  "actix-files",
  "actix-web",
+ "serde",
+ "serde_json",
  "tera",
 ]
 
